@@ -9,10 +9,15 @@
 	$json = json_decode($string);
 	$phone_link = str_replace('.', '', $json->phone);
 
+	if($detect->isMobile() && !$detect->isTablet()) :
+		$contact_class = 'text-left';
+	else :
+		$contact_class = 'text-left';
+
 ?>
 		<div class="row">
 			<div class="small-12 medium-3 large-3 columns">
-				<div id="contact" class="text-right">
+				<div id="contact" class="<?php echo $contact_class; ?>">
 					<h3>contact</h3>
 					<ul>
 						<li><a href="tel:<?php echo $phone_link; ?>"><?php echo $json->phone; ?></a></li>
