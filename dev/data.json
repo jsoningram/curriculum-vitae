@@ -22,9 +22,9 @@
 	{
 		"company" : "Scrapless Press",
 		"dates" : "2002-Present",
-		"title" : "Co-Owner",
-		"description" : "As one half of a \"mom and pop\", I take on many responsibilties including: Photoshop production and color artist, developer, customer service representative, shipping and receiving, delivery, accounting, etc.",
-		"points" : [],
+		"title" : "Owner",
+		"description" : "Work with art director to create custom photo cards, active in all day-to-day aspects of the business.",
+		"points" : ["Photoshop production and color correction", "Code websites", "Customer service", "Shipping and receiving", "Delivery", "Accounting" ],
 		"skills" : ["HTML", "CSS", "JavaScript", "PHP", "Photoshop", "InDesign", "Illustrator"]
 	},
 	{
