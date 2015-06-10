@@ -12,7 +12,8 @@
 	if($detect->isMobile() && !$detect->isTablet()) :
 		$contact_class = 'text-left';
 	else :
-		$contact_class = 'text-left';
+		$contact_class = 'text-right';
+	endif;
 
 ?>
 		<div class="row">
