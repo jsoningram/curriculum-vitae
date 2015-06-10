@@ -1,0 +1,21 @@
+{
+  "name": "resume",
+  "version": "0.0.1",
+  "authors": [
+    "Jason Ingram <jsoningram@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fontawesome": "*",
+    "foundation": "*"
+  }
+}
+

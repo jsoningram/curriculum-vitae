@@ -1,0 +1,128 @@
+// @variables
+
+$header-color: #666;
+$font-family: Lato, sans-serif;
+$font-hairline: 100;
+$font-light: 300;
+$font-normal: 400;
+$font-bold: 700;
+$font-black: 900;
+$paragraph-font-weight: $font-light;
+$header-font-weight: $font-light;
+$link-font-weight: $font-light;
+$title-font-weight: $font-light;
+$date-font-weight: $font-light;
+$job-description-font-weight: $font-light;
+$company-name-font-weight: $font-black;
+$red: #e3217e;
+$green: #00C241;
+$blue: #00a3e6;
+$heading-color: #000;
+
+@import "../../bower_components/foundation/scss/normalize";
+@import "../../bower_components/foundation/scss/foundation";
+@import "../../bower_components/fontawesome/scss/font-awesome";
+
+html, body, h1, h2, h3, h4, h5, h6 {
+	font-family: $font-family;
+	font-weight: $font-bold;
+	text-transform: lowercase;
+}
+
+p {
+	letter-spacing: .02em;
+	font-weight: $paragraph-font-weight;
+}
+
+a {
+	font-weight: $link-font-weight;
+	
+	&:hover {
+		border-bottom: 1px dotted #000;
+		color: #000;
+	}
+}
+
+header {
+	background: $header-color;
+	margin-bottom: 1em;
+	padding: 1em 0;
+
+	h1 {
+		color: #fff;
+		font-weight: $header-font-weight;
+		text-align: center;
+
+		span {
+			font-weight: $font-bold;
+		}
+	}
+	
+	p {
+		text-align: center;
+		color: #fff;
+	}
+}
+
+#contact {
+	padding-right: 2em;
+	
+	ul {
+		list-style: none;
+	}
+}
+
+#experience {
+	text-transform: none;
+	
+	span {
+		color: $blue;
+	}
+
+	.dates {
+		font-weight: $date-font-weight;
+	}
+
+	.company {
+		text-transform: uppercase;
+		font-weight: $company-name-font-weight;
+	}
+
+	.title, .heading {
+		font-style: italic;
+		font-weight: $title-font-weight;
+		text-transform: none;
+	}
+
+	span.heading {
+		color: $heading-color;
+		text-decoration: underline;
+		display: block;
+	}
+
+	p, ul {
+		font-weight: $job-description-font-weight;
+		text-transform: none;
+	}
+
+	ul {
+		list-style-type: circle;
+		padding-left: 1em;
+	}
+}
+
+#portfolio {
+
+	span {
+		color: $blue;
+	}
+
+	.sites {
+	    font-weight: $company-name-font-weight;
+	    text-transform: uppercase;
+	}
+
+	a, p {
+		text-transform: none;
+	}
+}
