@@ -28,7 +28,7 @@ else :
 	define("FOUNDATIONCSS", "https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css");
 	define("FOUNDATIONJS", "https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/js/foundation.min.js");
 	define("FONTAWESOME", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css");
-	define("GOOGLEFONTS", "//fonts.googleapis.com/css?family=Lato:400,300,700,900");
+	define("GOOGLEFONTS", "//fonts.googleapis.com/css?family=Lato:400,300,700,900,300italic,400italic");
 	define("STYLESCSS", MY_SITEURL . "/css/style.min.css");
 endif;
 
