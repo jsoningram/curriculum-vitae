@@ -14,6 +14,7 @@ $title-font-weight: $font-light;
 $date-font-weight: $font-light;
 $job-description-font-weight: $font-light;
 $company-name-font-weight: $font-black;
+$grey: $header-color;
 $red: #e3217e;
 $green: #00C241;
 $blue: #00a3e6;
@@ -36,6 +37,7 @@ p {
 
 a {
 	font-weight: $link-font-weight;
+	color: $blue;
 	
 	&:hover {
 		border-bottom: 1px dotted #000;
