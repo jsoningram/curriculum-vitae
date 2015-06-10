@@ -9,7 +9,7 @@
 		"title" : "Developer / Web Support Service Manager",
 		"description" : "Develop custom responsive websites and WordPress themes from design comps with focus on page speed, browser and cross-platform compatibility, and SEO. Manage and provide 24/7 support for all sites.",
 		"points" : ["Create custom plugins", "Implement SEO recommendations", "Facilitate project launches, taking sites from the development server, to staging and production", "Handle content management and training for clients", "Support, assist, and troubleshoot issues pertaining to website functionality"],
-		"skills" : ["HTML", "CSS/SCSS", "PHP", "MySQL", "WordPress", "_s", "JavaScript", "Foundation", "Bootstrap", "JSON", "XML", "Linux", "Apache", "Bash", "ssh", "scp", "rsync", "ftp", "wget", "cURL", "awk", "grep", "vi", "DNS", "Plesk", "Git", "VirualBox", "Gulp", "NodeJS", "NPM", "Bower", "Google Analytics and Webmaster Tools"]
+		"skills" : ["HTML", "CSS/SCSS", "PHP", "MySQL", "WordPress", "_s", "JavaScript", "Foundation", "Bootstrap", "JSON", "XML", "Linux", "Apache", "Bash", "ssh", "scp", "rsync", "ftp", "wget", "cURL", "awk", "grep", "vi", "DNS", "Plesk", "Git", "VirtualBox", "Gulp", "NodeJS", "NPM", "Bower", "Google Analytics and Webmaster Tools"]
 	},
 	{
 		"company" : "More Cabbage, LLC.",
