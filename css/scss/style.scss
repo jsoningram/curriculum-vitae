@@ -42,9 +42,10 @@ p {
 a {
 	font-weight: $link-font-weight;
 	color: $blue;
+	border-bottom: 1px dotted $blue;
 	
 	&:hover {
-		border-bottom: 1px dotted #000;
+		border-bottom: 0px dotted #000;
 		color: #000;
 	}
 }
@@ -85,6 +86,15 @@ header {
 	}
 }
 
+@media only screen and (max-width: 40em) { 
+	#contact {
+
+		a {
+			font-size: 1.2em;
+		}
+	}
+}
+
 #about {
 
 	span {
@@ -93,6 +103,10 @@ header {
 
 	p {
 		text-transform: none;
+	}
+
+	a {
+		margin-bottom: 1em;
 	}
 }
 
