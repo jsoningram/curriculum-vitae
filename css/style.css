@@ -7344,104 +7344,124 @@ html, body, h1, h2, h3, h4, h5, h6 {
 }
 
 /* line 33, css/scss/style.scss */
+.phone h3 {
+  font-size: 2em;
+}
+
+/* line 37, css/scss/style.scss */
 p {
   letter-spacing: .02em;
   font-weight: 300;
 }
 
-/* line 38, css/scss/style.scss */
+/* line 42, css/scss/style.scss */
 a {
   font-weight: 300;
   color: #00a3e6;
 }
-/* line 42, css/scss/style.scss */
+/* line 46, css/scss/style.scss */
 a:hover {
   border-bottom: 1px dotted #000;
   color: #000;
 }
 
-/* line 48, css/scss/style.scss */
+/* line 52, css/scss/style.scss */
 header {
   background: #666;
   margin-bottom: 1em;
   padding: 1em 0;
 }
-/* line 53, css/scss/style.scss */
+/* line 57, css/scss/style.scss */
 header h1 {
   color: #fff;
   font-weight: 300;
   text-align: center;
 }
-/* line 58, css/scss/style.scss */
+/* line 62, css/scss/style.scss */
 header h1 span {
   font-weight: 700;
 }
-/* line 63, css/scss/style.scss */
+/* line 67, css/scss/style.scss */
 header p {
   text-align: center;
   color: #fff;
 }
 
-/* line 69, css/scss/style.scss */
+/* line 73, css/scss/style.scss */
 #contact {
   padding-right: 2em;
 }
-/* line 72, css/scss/style.scss */
+/* line 76, css/scss/style.scss */
 #contact ul {
   list-style: none;
   margin: 0;
 }
+/* line 81, css/scss/style.scss */
+#contact .sub {
+  display: block;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
 
-/* line 78, css/scss/style.scss */
+/* line 90, css/scss/style.scss */
+#about span {
+  color: #00a3e6;
+}
+/* line 94, css/scss/style.scss */
+#about p {
+  text-transform: none;
+}
+
+/* line 99, css/scss/style.scss */
 #experience {
   text-transform: none;
 }
-/* line 81, css/scss/style.scss */
+/* line 102, css/scss/style.scss */
 #experience span {
   color: #00a3e6;
 }
-/* line 85, css/scss/style.scss */
+/* line 106, css/scss/style.scss */
 #experience .dates {
   font-weight: 300;
 }
-/* line 89, css/scss/style.scss */
+/* line 110, css/scss/style.scss */
 #experience .company {
   text-transform: uppercase;
   font-weight: 900;
 }
-/* line 94, css/scss/style.scss */
+/* line 115, css/scss/style.scss */
 #experience .title, #experience .heading {
   font-style: italic;
   font-weight: 300;
   text-transform: none;
 }
-/* line 100, css/scss/style.scss */
+/* line 121, css/scss/style.scss */
 #experience span.heading {
   color: #000;
   text-decoration: underline;
   display: block;
 }
-/* line 106, css/scss/style.scss */
+/* line 127, css/scss/style.scss */
 #experience p, #experience ul {
   font-weight: 300;
   text-transform: none;
 }
-/* line 111, css/scss/style.scss */
+/* line 132, css/scss/style.scss */
 #experience ul {
   list-style-type: circle;
   padding-left: 1em;
 }
 
-/* line 119, css/scss/style.scss */
+/* line 140, css/scss/style.scss */
 #portfolio span {
   color: #00a3e6;
 }
-/* line 123, css/scss/style.scss */
+/* line 144, css/scss/style.scss */
 #portfolio .sites {
   font-weight: 900;
   text-transform: uppercase;
 }
-/* line 128, css/scss/style.scss */
+/* line 149, css/scss/style.scss */
 #portfolio a, #portfolio p {
   text-transform: none;
 }

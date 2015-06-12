@@ -30,6 +30,10 @@ html, body, h1, h2, h3, h4, h5, h6 {
 	text-transform: lowercase;
 }
 
+.phone h3 {
+	font-size: 2em;
+}
+
 p {
 	letter-spacing: .02em;
 	font-weight: $paragraph-font-weight;
@@ -72,6 +76,23 @@ header {
 	ul {
 		list-style: none;
 		margin: 0;
+	}
+
+	.sub {
+		display: block;
+		margin-top: 2em;
+		margin-bottom: 1em;
+	}
+}
+
+#about {
+
+	span {
+		color: $blue;
+	}
+
+	p {
+		text-transform: none;
 	}
 }
 

@@ -11,7 +11,3 @@ var json = (function() {
 	});
 	return json;
  })();
-
-// document.getElementById("phone").innerHTML = json.contactdetails[0].phone;
-// document.getElementById("email").innerHTML = json.contactdetails[0].email;
-// document.getElementById("linkedin").innerHTML = json.contactdetails[0].linkedin;
