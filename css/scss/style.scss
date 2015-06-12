@@ -84,6 +84,10 @@ header {
 		display: block;
 		margin-top: 2em;
 		margin-bottom: 1em;
+
+		span {
+			text-transform: none;
+		}
 	}
 }
 
@@ -106,9 +110,14 @@ header {
 	p {
 		text-transform: none;
 	}
+}
 
-	a {
-		font-size: $mobile-link-size;
+@media only screen and (max-width: 40em) { 
+	#about {
+
+		a {
+			font-size: $mobile-link-size;
+		}
 	}
 }
 

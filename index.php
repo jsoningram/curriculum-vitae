@@ -28,7 +28,7 @@
 					</ul>
 					<div class="sub">
 						<a href="<?php echo MY_SITEURL; ?>/?p=about">About Me</a><br />
-						<a href="<?php echo MY_SITEURL . $json->download; ?>">Download CV (PDF, 80k)</a>
+						<a href="<?php echo MY_SITEURL . $json->download; ?>">Download CV <span>(PDF, 80k)</span></a>
 					</div><!--/.sub -->
 					
 				</div>

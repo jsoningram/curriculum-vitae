@@ -7403,80 +7403,86 @@ header p {
   margin-top: 2em;
   margin-bottom: 1em;
 }
+/* line 88, css/scss/style.scss */
+#contact .sub span {
+  text-transform: none;
+}
 
 @media only screen and (max-width: 40em) {
-  /* line 93, css/scss/style.scss */
+  /* line 97, css/scss/style.scss */
   #contact a {
     font-size: 1.2em;
   }
 }
-/* line 99, css/scss/style.scss */
+/* line 103, css/scss/style.scss */
 #about {
   padding-bottom: 1em;
 }
-/* line 102, css/scss/style.scss */
+/* line 106, css/scss/style.scss */
 #about span {
   color: #00a3e6;
 }
-/* line 106, css/scss/style.scss */
+/* line 110, css/scss/style.scss */
 #about p {
   text-transform: none;
 }
-/* line 110, css/scss/style.scss */
-#about a {
-  font-size: 1.2em;
-}
 
-/* line 115, css/scss/style.scss */
+@media only screen and (max-width: 40em) {
+  /* line 118, css/scss/style.scss */
+  #about a {
+    font-size: 1.2em;
+  }
+}
+/* line 124, css/scss/style.scss */
 #experience {
   text-transform: none;
 }
-/* line 118, css/scss/style.scss */
+/* line 127, css/scss/style.scss */
 #experience span {
   color: #00a3e6;
 }
-/* line 122, css/scss/style.scss */
+/* line 131, css/scss/style.scss */
 #experience .dates {
   font-weight: 300;
 }
-/* line 126, css/scss/style.scss */
+/* line 135, css/scss/style.scss */
 #experience .company {
   text-transform: uppercase;
   font-weight: 900;
 }
-/* line 131, css/scss/style.scss */
+/* line 140, css/scss/style.scss */
 #experience .title, #experience .heading {
   font-style: italic;
   font-weight: 300;
   text-transform: none;
 }
-/* line 137, css/scss/style.scss */
+/* line 146, css/scss/style.scss */
 #experience span.heading {
   color: #000;
   text-decoration: underline;
   display: block;
 }
-/* line 143, css/scss/style.scss */
+/* line 152, css/scss/style.scss */
 #experience p, #experience ul {
   font-weight: 300;
   text-transform: none;
 }
-/* line 148, css/scss/style.scss */
+/* line 157, css/scss/style.scss */
 #experience ul {
   list-style-type: circle;
   padding-left: 1em;
 }
 
-/* line 156, css/scss/style.scss */
+/* line 165, css/scss/style.scss */
 #portfolio span {
   color: #00a3e6;
 }
-/* line 160, css/scss/style.scss */
+/* line 169, css/scss/style.scss */
 #portfolio .sites {
   font-weight: 900;
   text-transform: uppercase;
 }
-/* line 165, css/scss/style.scss */
+/* line 174, css/scss/style.scss */
 #portfolio a, #portfolio p {
   text-transform: none;
 }
