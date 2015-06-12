@@ -20,7 +20,7 @@ if (MY_ENV == 'dev') :
 	define("GOOGLEFONTS", MY_SITEURL . "/css/googlefonts.css");
 	define("STYLESCSS", MY_SITEURL . "/css/style.css");
 else :
-	define("MY_SITEURL","http://".$_SERVER['HTTP_HOST']."/");
+	define("MY_SITEURL","http://".$_SERVER['HTTP_HOST']."");
 	define("MY_HOME", "/");
 	define("MY_MAILTO", "jsoningram@gmail.com");
 	define("MY_MAILFROM", "info@jsoningram.com");
