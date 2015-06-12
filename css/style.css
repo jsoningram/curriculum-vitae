@@ -7336,68 +7336,68 @@ th.hide-for-touch {
   content: "";
 }
 
-/* line 27, css/scss/style.scss */
+/* line 28, css/scss/style.scss */
 html, body, h1, h2, h3, h4, h5, h6 {
   font-family: Lato, sans-serif;
   font-weight: 700;
   text-transform: lowercase;
 }
 
-/* line 33, css/scss/style.scss */
+/* line 34, css/scss/style.scss */
 .phone h3 {
   font-size: 2em;
 }
 
-/* line 37, css/scss/style.scss */
+/* line 38, css/scss/style.scss */
 p {
   letter-spacing: .02em;
   font-weight: 300;
 }
 
-/* line 42, css/scss/style.scss */
+/* line 43, css/scss/style.scss */
 a {
   font-weight: 300;
   color: #00a3e6;
   border-bottom: 1px dotted #00a3e6;
 }
-/* line 47, css/scss/style.scss */
+/* line 48, css/scss/style.scss */
 a:hover {
   border-bottom: 0px dotted #000;
   color: #000;
 }
 
-/* line 53, css/scss/style.scss */
+/* line 54, css/scss/style.scss */
 header {
   background: #666;
   margin-bottom: 1em;
   padding: 1em 0;
 }
-/* line 58, css/scss/style.scss */
+/* line 59, css/scss/style.scss */
 header h1 {
   color: #fff;
   font-weight: 300;
   text-align: center;
 }
-/* line 63, css/scss/style.scss */
+/* line 64, css/scss/style.scss */
 header h1 span {
   font-weight: 700;
 }
-/* line 68, css/scss/style.scss */
+/* line 69, css/scss/style.scss */
 header p {
   text-align: center;
   color: #fff;
 }
 
-/* line 74, css/scss/style.scss */
+/* line 75, css/scss/style.scss */
 #contact {
   padding-right: 2em;
 }
-/* line 77, css/scss/style.scss */
+/* line 78, css/scss/style.scss */
 #contact ul {
   list-style: none;
   margin: 0;
 }
-/* line 82, css/scss/style.scss */
+/* line 83, css/scss/style.scss */
 #contact .sub {
   display: block;
   margin-top: 2em;
@@ -7405,78 +7405,78 @@ header p {
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 92, css/scss/style.scss */
+  /* line 93, css/scss/style.scss */
   #contact a {
     font-size: 1.2em;
   }
 }
-/* line 98, css/scss/style.scss */
+/* line 99, css/scss/style.scss */
 #about {
   padding-bottom: 1em;
 }
-/* line 101, css/scss/style.scss */
+/* line 102, css/scss/style.scss */
 #about span {
   color: #00a3e6;
 }
-/* line 105, css/scss/style.scss */
+/* line 106, css/scss/style.scss */
 #about p {
   text-transform: none;
 }
-/* line 109, css/scss/style.scss */
+/* line 110, css/scss/style.scss */
 #about a {
-  margin-bottom: 1em;
+  font-size: 1.2em;
 }
 
-/* line 114, css/scss/style.scss */
+/* line 115, css/scss/style.scss */
 #experience {
   text-transform: none;
 }
-/* line 117, css/scss/style.scss */
+/* line 118, css/scss/style.scss */
 #experience span {
   color: #00a3e6;
 }
-/* line 121, css/scss/style.scss */
+/* line 122, css/scss/style.scss */
 #experience .dates {
   font-weight: 300;
 }
-/* line 125, css/scss/style.scss */
+/* line 126, css/scss/style.scss */
 #experience .company {
   text-transform: uppercase;
   font-weight: 900;
 }
-/* line 130, css/scss/style.scss */
+/* line 131, css/scss/style.scss */
 #experience .title, #experience .heading {
   font-style: italic;
   font-weight: 300;
   text-transform: none;
 }
-/* line 136, css/scss/style.scss */
+/* line 137, css/scss/style.scss */
 #experience span.heading {
   color: #000;
   text-decoration: underline;
   display: block;
 }
-/* line 142, css/scss/style.scss */
+/* line 143, css/scss/style.scss */
 #experience p, #experience ul {
   font-weight: 300;
   text-transform: none;
 }
-/* line 147, css/scss/style.scss */
+/* line 148, css/scss/style.scss */
 #experience ul {
   list-style-type: circle;
   padding-left: 1em;
 }
 
-/* line 155, css/scss/style.scss */
+/* line 156, css/scss/style.scss */
 #portfolio span {
   color: #00a3e6;
 }
-/* line 159, css/scss/style.scss */
+/* line 160, css/scss/style.scss */
 #portfolio .sites {
   font-weight: 900;
   text-transform: uppercase;
 }
-/* line 164, css/scss/style.scss */
+/* line 165, css/scss/style.scss */
 #portfolio a, #portfolio p {
   text-transform: none;
 }

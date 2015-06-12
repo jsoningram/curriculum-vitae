@@ -19,6 +19,7 @@ $red: #e3217e;
 $green: #00C241;
 $blue: #00a3e6;
 $heading-color: #000;
+$mobile-link-size: 1.2em;
 
 @import "../../bower_components/foundation/scss/normalize";
 @import "../../bower_components/foundation/scss/foundation";
@@ -90,7 +91,7 @@ header {
 	#contact {
 
 		a {
-			font-size: 1.2em;
+			font-size: $mobile-link-size;
 		}
 	}
 }
@@ -107,7 +108,7 @@ header {
 	}
 
 	a {
-		margin-bottom: 1em;
+		font-size: $mobile-link-size;
 	}
 }
 
