@@ -9,8 +9,8 @@ else :
 endif;
 
 if (MY_ENV == 'dev') :
-	define("MY_SITEURL","http://".$_SERVER['HTTP_HOST']."/resume");
-	define("MY_HOME", "/resume/");
+	define("MY_SITEURL","http://".$_SERVER['HTTP_HOST']."/jsoningram");
+	define("MY_HOME", "/jsoningram/");
 	define("MY_MAILTO", "jsoningram@gmail.com");
 	define("MY_MAILFROM", "jsoningram@gmail.com");
 	define("JQUERY", MY_SITEURL . "/js/vendor/jquery.js");

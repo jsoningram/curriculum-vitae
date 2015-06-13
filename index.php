@@ -17,8 +17,8 @@
 
 ?>
 		<div class="row">
-			<div class="small-12 medium-3 large-3 columns">
-				<div id="contact" class="<?php echo $contact_class; ?>">
+			<div id="contact" class="small-12 medium-3 large-3 columns">
+				<div class="<?php echo $contact_class; ?>">
 					<h3>contact</h3>
 					<ul>
 						<li><a href="tel:<?php echo $phone_link; ?>"><?php echo $json->phone; ?></a></li>
@@ -34,17 +34,19 @@
 				</div>
 			</div><!--/.columns -->
 			<?php if (isset($_GET['p']) && $_GET['p'] == 'about') : ?>
-				<div class="small-12 medium-9 large-9 columns" id="about">
+				<div id="about" class="small-12 medium-9 large-9 columns">
 					<h3><span>abo</span>ut</h3>
 					<?php
+						echo '<div class="small-12 medium-10 columns">';
 						foreach ($json->about as $line) :
 							echo '<p>' . $line . '</p>';
 						endforeach;
+						echo '<a href="' . MY_SITEURL . '">Return to CV</a>';
+						echo '</div>';
 					?>
-					<a href="<?php echo MY_SITEURL; ?>">Return to CV</a>
 				</div><!--/.columns -->
 			<?php else : ?>
-				<div class="small-12 medium-9 large-9 columns" id="experience">
+				<div id="experience" class="small-12 medium-9 large-9 columns">
 					<h3><span>exp</span>erience</h3>
 					<?php
 						foreach ($json->jobs as $job) :
