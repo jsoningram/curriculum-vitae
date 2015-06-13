@@ -12,14 +12,16 @@ var json = (function() {
 	return json;
  })();
 
-$( ".about-me" ).click(function() {
-	$( "#experience" ).addClass( "hide" );
-	$( "#portfolio" ).addClass( "hide" );
-	$( "#about" ).removeClass( "hide" );
+$( ".about-me" ).click(function(e) {
+	e.preventDefault();
+	$("#experience").addClass("hide");
+	$("#portfolio").addClass("hide");
+	$("#about").removeClass("hide");
 });
 
-$( ".return" ).click(function() {
-	$( "#experience" ).removeClass( "hide" );
-	$( "#portfolio" ).removeClass( "hide" );
-	$( "#about" ).addClass( "hide" );
+$( ".return" ).click(function(e) {
+	e.preventDefault();
+	$("#experience").removeClass("hide");
+	$("#portfolio").removeClass("hide");
+	$("#about").addClass("hide");
 });
