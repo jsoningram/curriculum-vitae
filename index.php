@@ -15,6 +15,8 @@
 		$contact_class = 'text-right';
 	endif;
 
+	$cv = '.' . $json->download;
+
 ?>
 		<div class="row">
 			<div id="contact" class="small-12 medium-3 large-3 columns">
