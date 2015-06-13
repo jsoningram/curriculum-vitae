@@ -30,7 +30,7 @@
 					</ul>
 					<div class="sub">
 						<a class="about-me" href="">About Me</a><br />
-						<a href="<?php echo MY_SITEURL . $json->download; ?>">Download CV <span>(PDF, 81k)</span></a>
+						<a href="<?php echo MY_SITEURL . $json->download; ?>">Download CV <span>(PDF, <?php echo round(filesize($cv) / 1000); ?>k)</span></a>
 					</div><!--/.sub -->
 					
 				</div>
