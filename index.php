@@ -27,25 +27,23 @@
 						<li><a href="<?php echo $json->github; ?>">GitHub</a></li>
 					</ul>
 					<div class="sub">
-						<a href="<?php echo MY_SITEURL; ?>/?p=about">About Me</a><br />
+						<a class="about-me" href="">About Me</a><br />
 						<a href="<?php echo MY_SITEURL . $json->download; ?>">Download CV <span>(PDF, 81k)</span></a>
 					</div><!--/.sub -->
 					
 				</div>
 			</div><!--/.columns -->
-			<?php if (isset($_GET['p']) && $_GET['p'] == 'about') : ?>
-				<div id="about" class="small-12 medium-9 large-9 columns">
+				<div id="about" class="small-12 medium-9 large-9 columns hide">
 					<h3><span>abo</span>ut</h3>
 					<?php
 						echo '<div class="small-12 medium-10 columns left-collapse">';
 						foreach ($json->about as $line) :
 							echo '<p>' . $line . '</p>';
 						endforeach;
-						echo '<a href="' . MY_SITEURL . '">Return to CV</a>';
+						echo '<a class="return" href="' . MY_SITEURL . '">Return to CV</a>';
 						echo '</div>';
 					?>
 				</div><!--/.columns -->
-			<?php else : ?>
 				<div id="experience" class="small-12 medium-9 large-9 columns">
 					<h3><span>exp</span>erience</h3>
 					<?php
@@ -82,7 +80,6 @@
 						endforeach;
 					?>
 				</div><!--/.columns -->
-			<?php endif; ?>
 		</div><!--/.row -->
 
 <?php
