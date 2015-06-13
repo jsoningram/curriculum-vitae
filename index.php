@@ -37,7 +37,7 @@
 				<div id="about" class="small-12 medium-9 large-9 columns">
 					<h3><span>abo</span>ut</h3>
 					<?php
-						echo '<div class="small-12 medium-10 columns">';
+						echo '<div class="small-12 medium-10 columns left-collapse">';
 						foreach ($json->about as $line) :
 							echo '<p>' . $line . '</p>';
 						endforeach;
