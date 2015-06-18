@@ -29,7 +29,8 @@
 						<li><a href="<?php echo $json->github; ?>">GitHub</a></li>
 					</ul>
 					<div class="sub">
-						<a class="about-me" href="">About Me</a><br />
+						<a class="about-me" href="">About Me<br /></a>
+						<a class="return hide" href="">Return to CV<br /></a>
 						<a href="<?php echo MY_SITEURL . $json->download; ?>">Download CV <span>(PDF, <?php echo round(filesize($cv) / 1000); ?>k)</span></a>
 					</div><!--/.sub -->
 					
@@ -42,7 +43,7 @@
 						foreach ($json->about as $line) :
 							echo '<p>' . $line . '</p>';
 						endforeach;
-						echo '<a class="return" href="' . MY_SITEURL . '">Return to CV</a>';
+						//echo '<a class="return" href="' . MY_SITEURL . '">Return to CV</a>';
 						echo '</div>';
 					?>
 				</div><!--/.columns -->

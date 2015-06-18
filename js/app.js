@@ -17,6 +17,8 @@ $( ".about-me" ).click(function(e) {
 	$("#experience").addClass("hide");
 	$("#portfolio").addClass("hide");
 	$("#about").removeClass("hide");
+	$(".about-me").addClass("hide");
+	$(".return").removeClass("hide");
 });
 
 $( ".return" ).click(function(e) {
@@ -24,4 +26,6 @@ $( ".return" ).click(function(e) {
 	$("#experience").removeClass("hide");
 	$("#portfolio").removeClass("hide");
 	$("#about").addClass("hide");
+	$(".return").addClass("hide");
+	$(".about-me").removeClass("hide");
 });
