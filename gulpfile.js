@@ -39,7 +39,7 @@ jsSources = [ // order of array elements determins processing order
 sassSources = [
 	'./bower_components/foundation/scss/normalize.scss',
 	'./bower_components/foundation/scss/foundation.scss',
-	'./bower_components/fontawesome/scss/font-awesome.scss',
+	//'./bower_components/fontawesome/scss/font-awesome.scss',
 	'./css/scss/style.scss',
 ];
 jsonSources = ['js/*.json'];
@@ -57,7 +57,7 @@ gulp.task('watch', function() {
 	gulp.watch(jsSources, ['js']);
 	gulp.watch('./bower_components/foundation/scss/normalize.scss', ['styles']);
 	gulp.watch('./bower_components/foundation/scss/foundation.scss', ['styles']);
-	gulp.watch('./bower_components/fontawesome/scss/font-awesome.scss', ['styles']);
+	//gulp.watch('./bower_components/fontawesome/scss/font-awesome.scss', ['styles']);
 	gulp.watch('./css/scss/*scss', ['styles']);
 	gulp.watch('./dev/*.json', ['json']);
 });
