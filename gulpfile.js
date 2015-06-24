@@ -75,7 +75,7 @@ gulp.task('browser-sync', function() {
 	];
 
 	browserSync.init(files, {
-		proxy: 'ubuntulocal.dev:8080/jsoningram'
+		proxy: 'ubuntulocal.dev:8080/curriculum-vitae'
 	});
 });
 
