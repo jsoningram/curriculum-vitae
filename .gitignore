@@ -2,6 +2,7 @@ bower_components/
 .sass-cache/
 node_modules/
 images/working/
+images/source/
 dl/*.ai
 dl/json-ingram-references.pdf
 dl/jasoningram-profile.jpg

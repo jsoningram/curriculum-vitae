@@ -6,6 +6,7 @@
 		<title><?php echo $page_title; ?></title>
 		<link rel="stylesheet" href="<?php echo GOOGLEFONTS; ?>" />
 		<link rel="stylesheet" href="<?php echo STYLESCSS; ?>" />
+		<link rel="shortcut icon" href="<?php echo MY_SITEURL; ?>/images/favicon.png" />
 	</head>
 	<body class="<?php echo $viewport . ' ' . $browseris . ' ' . $os; ?>">       
 
