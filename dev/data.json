@@ -68,19 +68,16 @@
 	"sites" : [{
 		"company" : "Villara Building Systems",
 		"url" : "http://villara.com",
-		"disclaimer" : "Listing does not constitute endorsement.",
 		"description" : "Custom WordPress build from supplied Photoshop comps, custom post types for locations and available jobs. Training and support."
 	},
 	{
 		"company" : "United Cry",
 		"url" : "http://unitedcry.org",
-		"disclaimer" : "",
 		"description" : "Custom WordPress build from supplied Photoshop comps, custom post types for \"Voices\" section, FoxyCart integration, connect site to organization's social networks and MailChimp. Training and support."
 	},
 	{
 		"company" : "Nancy Conant Portraits",
 		"url" : "https://nancyconant.com",
-		"disclaimer" : "",
 		"description" : "Custom WordPress build from supplied Photshop comps, FoxyCart integration for custom e-commerce solution."
 	}
 	]
