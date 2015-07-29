@@ -4,27 +4,13 @@
 	"linkedin" : "https://www.linkedin.com/in/jsoningram",
 	"github" : "https://github.com/jsoningram",
 	"download" : "/dl/jason-ingram.pdf",
-	"about" : [
-		"I am a full-stack WordPress developer and production artist with a passion for learning.",
-		"I started hacking the web in the early 90's, when consumer internet meant AOL or CompuServe. My career path took me on a journey through the world of graphic arts until I found a home at a social PR / marketing firm as a production artist, and now, full time web developer.",
-		"Along the way I've learned strong written and verbal communication skills and to be highly organized. I am able to explain technical issues in a non-technical manner. I work well (best) under pressure, am able to handle multiple projects and tasks simultaneously and always meet deadlines. I am a team player with experience in both the traditional and distributed workforces.
-	"],
+	"about" : ["I am a full-stack WordPress developer and production artist with a passion for learning.", "I started hacking the web in the early 90's, when consumer internet meant AOL or CompuServe. My career path took me on a journey through the world of graphic arts until I found a home at a social PR / marketing firm as a freelance production artist, and now, full time web developer.", "Along the way I've learned strong written and verbal communication skills and to be highly organized. I am able to explain technical issues in a non-technical manner. I work well (best) under pressure, am able to handle multiple projects and tasks simultaneously and always meet deadlines. I am a team player with experience in both the traditional and distributed workforces."],
 	"jobs" : [{
 		"company" : "More Cabbage, LLC.",
 		"dates" : "2012-Present",
 		"title" : "Developer / Web Support Service Manager",
 		"description" : "Develop custom responsive websites and WordPress themes from design comps with focus on page speed, browser and cross-platform compatibility, and SEO. Manage and provide 24/7 support for all sites.",
-		"points" : [
-			"Develop responsive websites",
-			"Create custom plugins",
-			"Implement SEO recommendations",
-			"Facilitate project launches, taking sites from the development server, to staging and production",
-			"Handle content management and training for clients",
-			"Support, assist, and troubleshoot issues pertaining to website functionality",
-			"Service several clients concurrently",
-			"Manage Apache and MySQL servers on CentOS and Ubuntu",
-			"Keep up on latest exploits and vulnerabilities"
-		],
+		"points" : ["Develop responsive websites", "Create custom plugins", "Implement SEO recommendations", "Facilitate project launches, taking sites from the development server, to staging and production", "Handle content management and training for clients", "Support, assist, and troubleshoot issues pertaining to website functionality", "Service several clients concurrently", "Manage Apache and MySQL servers on CentOS and Ubuntu", "Keep up on latest exploits and vulnerabilities"],
 		"skills" : ["HTML", "CSS/SCSS", "PHP", "MySQL", "WordPress", "_s", "JavaScript", "Foundation", "Bootstrap", "JSON", "XML", "Linux", "Apache", "Bash", "ssh", "scp", "rsync", "ftp", "wget", "cURL", "awk", "grep", "vi", "DNS", "Plesk", "Git", "VirtualBox", "Gulp", "NodeJS", "NPM", "Bower", "Google Analytics and Webmaster Tools"]
 	},
 	{
@@ -32,11 +18,7 @@
 		"dates" : "2003-2012",
 		"title" : "Production Artist",
 		"description" : "Print liaison, working closely with the art director to bridge the gap between designers and commercial printers by providing print production services using the latest versions of Adobe Creative Cloud.",
-		"points" : [
-			"Create POS displays from printer specs",
-			"Build food packaging art to printer templates",
-			"Supply print ready PDFs of business stationery to printing partners"
-		],
+		"points" : ["Create POS displays from printer specs", "Build food packaging art to printer templates", "Supply print ready PDFs of business stationery to printing partners" ],
 		"skills" : ["Photoshop", "InDesign", "Illustrator", "Bridge", "Acrobat"]
 	},
 	{
@@ -44,11 +26,7 @@
 		"dates" : "2002-Present",
 		"title" : "Owner",
 		"description" : "Work with art director to create custom photo cards, active in all day-to-day aspects of a custom photocard boutique.",
-		"points" : [
-			"Photoshop production and color correction",
-			"Code websites", "Customer service",
-			"Shipping and receiving", "Delivery", "Accounting"
-		],
+		"points" : ["Photoshop production and color correction", "Code websites", "Customer service", "Shipping and receiving", "Delivery", "Accounting" ],
 		"skills" : ["HTML", "CSS", "JavaScript", "PHP", "Photoshop", "InDesign", "Illustrator"]
 	},
 	{
@@ -56,31 +34,23 @@
 		"dates" : "1995-2002",
 		"title" : "Technology Lead / Production Specialist",
 		"description" : "Responsible for a network consisting of Macintosh, Windows and Unix operating systems and a team of five operators. In 2001, led a three man team making the transition from film to an all digital workflow powered by the Creo Brisque 4 Impose, output to Trendsetter Spectrum (Imation), Iris 43Wide and Epson 9500.",
-		"points" : [
-			"High end pre-print production",
-			"Development, implementation and support of workflows and solutions for software and hardware limitation issues",
-			"Work closely with clients and sales staff to ensure a smooth transition from design to print",
-			"Research / test new technologies"
-		],
+		"points" : ["High end pre-print production", "Development, implementation and support of workflows and solutions for software and hardware limitation issues", "Work closely with clients and sales staff to ensure a smooth transition from design to print", "Research / test new technologies"],
 		"skills" : ["Photoshop", "InDesign", "QuarkXPress", "Illustrator", "Freehand"]
 	}
 	],
 	"sites" : [{
 		"company" : "Villara Building Systems",
 		"url" : "http://villara.com",
-		"disclaimer" : "Listing does not constitute any endorsement.",
 		"description" : "Custom WordPress build from supplied Photoshop comps, custom post types for locations and available jobs. Training and support."
 	},
 	{
 		"company" : "United Cry",
 		"url" : "http://unitedcry.org",
-		"disclaimer" : "",
 		"description" : "Custom WordPress build from supplied Photoshop comps, custom post types for \"Voices\" section, FoxyCart integration, connect site to organization's social networks and MailChimp. Training and support."
 	},
 	{
 		"company" : "Nancy Conant Portraits",
 		"url" : "https://nancyconant.com",
-		"disclaimer" : "",
 		"description" : "Custom WordPress build from supplied Photshop comps, FoxyCart integration for custom e-commerce solution."
 	}
 	]
