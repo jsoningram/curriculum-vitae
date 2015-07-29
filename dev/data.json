@@ -45,6 +45,12 @@
 		"description" : "Custom WordPress build from supplied Photoshop comps, custom post types for locations and available jobs. Training and support."
 	},
 	{
+		"company" : "Serendeppity Lip Gloss",
+		"url" : "http://serendeppity.com/",
+		"disclaimer" : "",
+		"description" : "Simple WordPress e-commerce build with Gravity Forms to PayPal integration, custom post types and customer reviews."
+	},
+	{
 		"company" : "United Cry",
 		"url" : "http://unitedcry.org",
 		"disclaimer" : "",
