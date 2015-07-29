@@ -79,8 +79,7 @@
 							echo '</div><!--/.columns -->';
 							echo '<div class="small-12 medium-10 columns sites">';
 								echo $site->company . '<br /><a class="url" rel="nofollow" href="' . $site->url . '">' . $site->url . '</a><p>' . $site->description . '</p>';
-							echo '</div><!--/.columns -->';
-							echo '</div><!--/.row -->';
+							echo '</div><!--/.columns --></div><!--/.row -->';
 						endforeach;
 					?>
 				</div><!--/.columns -->
